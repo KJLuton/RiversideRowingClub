@@ -12,6 +12,9 @@ body section{
 
 /* ------------------------ Navbar -------------*/
 
+.page{
+    color: darkorchid;
+}
 .container-fluid {
     width: 100%;
 }
