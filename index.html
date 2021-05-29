@@ -12,7 +12,7 @@
 <body>
 <!--- Header and Nav Bar -->
     <header>
-            <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="row container-fluid">
                     <div class="col">
                         <a class="navbar-brand" href="#">
@@ -38,7 +38,7 @@
                         </div>
                         </div>
                     <div class="col">
-                            <p class="justify-content-center navbar-announcement" href="#">Learn to row courses coming soon!</p>
+                            <p class="justify-content-center navbar-announcement d-none d-lg-block" href="#">Learn to row courses coming soon!</p>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -47,20 +47,60 @@
             </nav>
     </header>
 
-    <!--- Main -->
+    <!--- Hero Image Carousel ------>
+    <section>
+        <div>
+            <img src="assets/images/Banner_rhys-moult-L7QSnNpwjVw-unsplash.jpeg" class="d-block img-fluid" alt="...">
+        </div>
+    </section>
 
+     <!--- Main link to pages ------>
     <section>
-    SECTION 1 - Hero image
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card-joinus">
+                <div class="card-body-joinus">
+                  <h5 class="card-title">Join Us</h5>
+                  <p class="card-text">Looking to join a rowing club this September? Look no further</p>
+                  <a href="#" class="btn btn-joinus">Find out more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card-members">
+                <div class="card-body-members">
+                  <h5 class="card-title">Members Area</h5>
+                  <p class="card-text">All your important member bits can be found here</p>
+                  <a href="#" class="btn btn-members">Enter</a>
+                </div>
+              </div>
+            </div>
+          </div>          
     </section>
-    <section>
-    SECTION 2
-    </section>
-    <section>
-    SECTION 3
+
+     <!--- Contact us bottom page ------>
+    <section class="row contactform-bottom">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div> 
+              </div>
+              <div class="col">
+              </div>
+            </div>      
     </section>
 
     <!--- Footer -->
-    <footer class="container-fluid fixed-bottom footer">
+    <footer class="container-fluid footer">
         <div class="row footer-row">
             <div class="col-sm-4">
                 <ul class="list-inline social-links">
@@ -84,12 +124,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-none d-lg-block">
                 <a class="footer-logo" href="index.html">
                     <img src="assets/images/RiversideRowingclub_colourlogo.png" alt="" width="150" height="50">
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-none d-lg-block">
             </div>
         </div>
     </footer>
