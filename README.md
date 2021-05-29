@@ -1,59 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Riverside Rowing Club Website 
+## User-Centric Frontend Development Milestone Project 1
 
-Welcome USER_NAME,
+[insert image mock up here]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Website presents XXXXX Rowing Club as a rowing club in London who has active members and is currently recruiting for the new season. Users will be able to find engaging content in easy and simple way.
 
-## Gitpod Reminders
+This project is for educational purposes and does not represent an actual Rowing club. The website is build with HTML, CSS and Bootstrap framework. It will be responsive for multiple screen types.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
+## [View life website in github pages](LINK HERE)
 ---
 
-Happy coding!
+# Table of Contents
+
+- [UX](#ux)
+    - [Website owner business goals](#website-owner-business-goals)
+    - [User goals](#user-goals)
+        - [New user goals](#new-user-goals)
+        - [Returning user goals](#returning-user-goals)
+        - [Website owner business goals](#website-owner-business-goals)
+    - [User stories](#user-stories)
+    - [Structure of the website](#structure-of-the-website)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+- [Features](#features)
+- [Technology](#technology)
+- [Testing](#testing)
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)
+    - [Code Validation](#code-validation)
+    - [User stories testing](#user-stories-testing)
+    - [Issues found during site development](#issues-found-during-site-development)
+    - [Performance testing](#performance-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
+
+# UX
+
+## Website owner business goals
+
+The reason to create this website is to create a space for the Riverside Rowing Club to create an online hub for their members as well as a space to advertise the club and recruit new members. The website will advertise the club and its facilities. It’s also an information hub for members about the current season and their rowing membership. 
+
+Provide information about the upcoming season for its members
+Increase membership by providing information about the rowing club and coaching facilities
+
+## User goals
+
+### New user goals (prospective Rowing Club members):
+
+- User is able to find out about the Rowing Club’s facilities, membership prices and location
+- User is able to find out about the Rowing club’s goals and previous achievements, events and coaches
+- User can download a membership form and get application details
+- User can find the club location and contact information of club captain.
+
+### Returning user goals (Rowing Club members):
+- User can find out about latest events the club is participating in
+- User can contact club captain 
+- User can find important documents relating to the club
+
+
+NEED TO UPDATE THIS
+
+## User stories
+
+User 1:
+Laura (40) is a mum of a Peter (15). Peter is a beginner rower and wants to join a rowing club in London. Laura is looking at the Rowing Club’s website to find out about the club, learn to row courses  and membership prices.
+
+User 2:
+John is a male, experienced rower in his early 20s. He has just moved to London and is not yet a member of the Rowing Club. He is looking to find out about the clubs’ facilities, achievements, future goals and membership details. He is looking at multiple clubs in the area to find the best fit for him. 
+
+User 3:
+Katie is a female in her late 30s. She is an experienced rower and a long-time member of the club. She wants to find out about upcoming race dates and volunteering opportunities. She also needs to buy some new kit as her old kit has worn out. 
+
+
+[Back to Table of contents](#table-of-contents)
