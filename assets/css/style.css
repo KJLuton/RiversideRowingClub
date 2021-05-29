@@ -1,3 +1,84 @@
+
+
 body {
-    color: blue;
+    margin: 0;
+    background-color: darkcyan;
+}
+
+body section{
+    color: rgb(0, 0, 0);
+    background-color: coral;
+}
+
+/* ------------------------ Navbar -------------*/
+
+.container-fluid {
+    width: 100%;
+}
+
+.navbar-menutext {
+    text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.navbar-announcement {
+    text-align: right;
+    font-size: small;
+    font-weight: 300;
+    padding-top: 15px;
+
+}
+
+/* ------------------------ Special paddings / margins -------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.list-inline {
+    padding-left: 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: rgb(25, 37, 78);
+    color: #fafafa;
+    max-height: 100px;
+    margin: 0;
+    padding-top: .5rem;
+    padding-bottom: 0rem;
+}
+
+.social-links li a i {
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color:#f7ba00;    
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+.footer-logo {
+    display: block;
+    text-align: center;
+    margin: auto;
 }
