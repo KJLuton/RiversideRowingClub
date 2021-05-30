@@ -1,65 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-
-
-body section{
-    color: rgb(0, 0, 0);
-    background-color: coral;
-}
-
-body {
-    margin: 0;
-    font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ffc107;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-
-/* ------------------------ Navbar ------------------*/
-
-.bg-light {
-    background-color: rgb(25, 37, 78)!important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: beige;
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ffc107;
-}
-
-.navbar-menutext {
-    text-align: center;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.navbar-announcement {
-    text-align: right;
-    font-size: small;
-    font-weight: 600;
-    padding-top: 15px;
-}
-
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    background-color: #ffc107;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
 
 /* ------------------------ fonts and styles -------------*/
 
@@ -74,7 +15,7 @@ h2 {
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-weight: 500;
 }
 
@@ -107,9 +48,64 @@ h4 {
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
+.list-inline {
+    padding-left: 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+/* ------------------------ Navbar ------------------*/
+
+.bg-light {
+    background-color: rgb(25, 37, 78)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: beige;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffc107;
+}
+
+.navbar-menutext {
+    text-align: center;
+}
+
+.navbar-announcement {
+    text-align: right;
+    font-size: small;
+    font-weight: 600;
+    padding-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: #ffc107;
+}
+
 /* ---------------------------------------- Homepage --------*/ 
 
-
+.welcome-header {
+    color: rgb(0, 0, 0);
+    background-color: #ffb150d6;
+    padding-top: 100px;
+    text-align: center;
+}
 
 
 /* ---------------------------------------- Carousel 
