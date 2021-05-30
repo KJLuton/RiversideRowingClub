@@ -10,109 +10,235 @@
     <title>Riverside Rowing Club - Join Us</title>
 </head>
 <body>
-<!--- Header and Nav Bar -->
-    <header>
-            <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <div class="row container-fluid">
-                    <div class="col">
-                        <a class="navbar-brand" href="#">
-                        <img src="assets/images/RiversideRowingclub_colourlogo.png" alt="" width="150" height="50">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <div class="justify-content-center collapse navbar-collapse">
-                            <ul class="navbar-nav mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="joinus.html">Join Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="members.html">Members</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contactus.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        </div>
-                    <div class="col">
-                            <p class="justify-content-center navbar-announcement d-none d-lg-block" href="#">Learn to row courses coming soon!</p>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
+<!----------------------------------- Header -------------------------------->
+<!---------------------------------- Navbar ---------------------------------->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="row container-fluid">
+            <div class="col">
+                <a class="navbar-brand" id="navbar-logo" href="index.html">
+                <img src="assets/images/logos/RiversideRowingclub_colourlogo.png" alt="" width="150" height="50">
+                </a>
+            </div>
+            <div class="col">
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="joinus.html">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="members.html">Members</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-    </header>
-
-    <!--- Hero Image Carousel ------>
-    <section>
-        <div>
-            <img src="assets/images/Banner_rhys-moult-L7QSnNpwjVw-unsplash.jpeg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="col">
+                <p class="justify-content-center d-none d-lg-block" id="navbar-announcement" href="#"><em>"Learn-to-row" courses starting in September!</em></p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </div>
-    </section>
-
-     <!--- Main link to pages ------>
-     <section>
-        <h1>JOIN US</h1>        
-    </section>
-
-     <!--- Contact us bottom page ------>
-    <section class="row contactform-bottom">
-        <div class="container">
-            <div class="row">
-              <div class="col">
-              </div>
-              <div class="col-6">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div> 
-              </div>
-              <div class="col">
-              </div>
-            </div>      
-    </section>
-
-    <!--- Footer -->
-    <footer class="container-fluid footer">
-        <div class="row footer-row">
-            <div class="col-sm-4">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-facebook-f"aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
+    </nav>
+<!-------------------------- /.navbar ------------------------->
+</header>
+<!------------------------- /.header ------------------------->
+<!------------------- Welcome and hero image section --------------->
+<section class="page-header-section">
+    <div class="container-fluid">
+        <div class="row page-header-text">
+            <section class="text-center">
+                <h1>Join Us</h1>
+            </section>
+        </div>
+    </div>
+</section>
+<section class="container-fluid page-hero-image-section">
+    <div class="row page-hero-image-section">
+        <img src="assets/images/own/Henelypodium.jpeg" class="d-block img-fluid w-100" alt="rowingpicture">
+    </div>
+</section>
+<!----------------- /.Welcome and hero image section---------------->
+<!------------------ About Us Section  ---------------------->
+<section class="about-us-section">
+    <div class="row text-center">
+        <div class="col-2 col-sm-none">
+        </div>
+        <div class="col-lg-8 about-us-text">
+            <h2 class="aboutus-header">ABOUT US</h2>
+            <p class="about-us-body">Type interesting things about us here.Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.</p>
+        </div>
+        <div class="col-2 col-sm-none">
+        </div>
+    </div>
+</section>
+<!----------------------- /.About Us Section ------------------------->
+<!------------------------- Membership section ---------------------------->
+<section class="membership-section">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="membership-prices">Membership Prices</h2>
+            <p>Type interesting things about us here.Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.
+            Type interesting things about us here.Type interesting things about us here.</p>
+        </div>
+        <div class="col-lg-6">
+            <div class="membershipimage">
+                <img src="assets/images/own/pairrowing.jpeg" class="d-block img-fluid w-100" alt="rowingpicture">
+            </div>
+        </div>
+    </div>
+</section>       
+<!------------------------- /.Membership section -------------------------->   
+<!------------------------- Join us quote section ---------------------------->
+<section class="joinus-quote-section">
+    <div class="row">
+        <div class="col-12">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+    </div>
+</section>       
+<!------------------------- /.Join us quote section -------------------------->   
+<!------------------------- Club Facilities section ---------------------------->
+<section class="facilities-section">
+    <div class="row">
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+    <div class="row">
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+    </div>
+</section>       
+<!------------------------- /.Club Facilities section -------------------------->  
+<!------------------------- Meet the coaches section ---------------------------->
+<section class="coaches-section container-fluid">
+    <h2 class="meet-coaches-header">Meet the coaches</h2>
+    <div class="row">
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+        <div class="col-3">
+            <h2>Interesting quote about rowing here</h2>
+        </div>
+    </div>
+</section>       
+<!------------------------- /.Meet the coaches section  --------------------------> 
+    
+<!------------------------ Contact us bottom page ----------------------->
+<section class="contact-form-section">
+    <div class="container-fluid contact-form-section">
+        <img src="assets/images/credit/kyle-kranz-ss1YP57gLbM-unsplash.jpg" alt="rowing" style="width:100%;">
+        <div class="row form-overlay">
+            <div class="col-lg-3 col-md-2 col-sm-none"></div>
+            <div class="col-lg-6 col-md-8 col-sm-12">
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="EmailaddressInput">Email address</label>
+                        <input type="email" class="form-control" id="EmailaddressInput" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactreason">Contact Reason</label>
+                        <select class="form-control" id="contactreason">
+                        <option>Select your reason for contact</option>
+                        <option>Membership query</option>
+                        <option>Volunteering</option>
+                        <option>Members questions</option>
+                        <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                    <label for="formmessagearea">Message</label>
+                    <textarea class="form-control" id="formmessagearea" rows="3" placeholder="Type your message here"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-none">
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------ /.Contact us bottom page --------------------------->
+<!-------------------------------- Footer ------------------------------------>
+<footer class="container-fluid footer">
+    <div class="row footer-row">
+        <div class="col-sm-4">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-f"aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://twitter.com/">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
             </div>
             <div class="col-sm-4 d-none d-lg-block">
                 <a class="footer-logo" href="index.html">
-                    <img src="assets/images/RiversideRowingclub_colourlogo.png" alt="" width="150" height="50">
+                    <img src="assets/images/logos/RiversideRowingclub_colourlogo.png" alt="" width="150" height="50">
                 </a>
             </div>
             <div class="col-sm-4 d-none d-lg-block">
             </div>
         </div>
-    </footer>
+</footer>
+<!-------------------------------- /.Footer --------------------------------->
 </body>
 </html>
