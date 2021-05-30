@@ -1,27 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:100,200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika+Negative:wght@300;400;600;700&display=swap');
+
 
 /* ------------------------ fonts and styles -------------*/
 
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
 h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 500%;
+    font-size: 5rem;
+    color: #19254e;
 }
 
 h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 p {
     font-family: 'Signika Negative', sans-serif;
-    font-weight: 500;
+    font-weight: 1rem;
+    margin-bottom: 0;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
+
+.text-center {
+    text-align: center;
+}
+
+/* ------------------------ colours -------------------*/
+
+
+
 
 /* ------------------------ Special paddings / margins -------------*/
 
@@ -30,6 +44,14 @@ h2,
 h3,
 h4 {
     margin: 0;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .list-inline {
@@ -75,16 +97,19 @@ h4 {
     color: #ffc107;
 }
 
-.navbar-menutext {
-    text-align: center;
+#navbar-announcement {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #ffc107;
 }
 
-.navbar-announcement {
-    text-align: right;
-    font-size: small;
-    font-weight: 600;
+#navbar-logo {
     padding-top: 15px;
-    font-family: 'Bebas Neue', cursive;
+    padding-left: 15px;
 }
 
 .navbar-toggler-icon {
@@ -100,41 +125,21 @@ h4 {
 
 /* ---------------------------------------- Homepage --------*/ 
 
-.welcome-header {
-    color: rgb(0, 0, 0);
-    background-color: #ffb150d6;
-    padding-top: 100px;
-    text-align: center;
+.container-welcome {
+    padding-top: 80px;
+    padding-bottom: 15px;
+    background-color: #ffc107;
 }
 
-
-/* ---------------------------------------- Carousel 
-.carousel {
-    height: 550px;
-    margin-bottom: 60px;
-  }
-
-.carousel-caption {
-    z-index: 10;
-  }
-  
-.carousel .item {
-    object-fit: fill;
-    height: 550px;
-    background-color: #777;
-  }
-
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 500px;
+.container-welcome p {
+    color: #19254e;
 }
 
---------*/
+.hero-image-container {
+    height: 600px;
+}
 
-/* ---------------------------------------- Middle links section------*/
+/* ---------------------------------------- Call Cards Section ------*/
 
 .card-body-joinus {
     flex: 1 1 auto;
@@ -152,6 +157,7 @@ h4 {
     background-clip: border-box;
     border: 0px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    height: 200px;
 }
 
 .btn-joinus {
@@ -177,6 +183,7 @@ h4 {
     background-clip: border-box;
     border: 0px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    height: 200px;
 }
 
 .btn-members {
@@ -186,8 +193,30 @@ h4 {
     width: 50%;
 }
 
+.card-text {
+    padding-bottom: 20px;
+}
 
-/* ----------------------------------------Contact form section-------*/
+/* ---------------------------------------- /.Call Cards Section ------*/
+
+.motivation-section{
+    height: 200px;
+    vertical-align: middle;
+    padding-top: 70px;
+    background: #8e9292;
+    position: relative;
+}
+
+.quotes-header h5 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Signika Negative';
+}
+
+/* ---------------------------------------- /.Call Cards Section ------*/
+
+
+/* ----------------------------------------Contact form section----
 
 .contactform-bottom {
     height: 300px;
@@ -195,13 +224,52 @@ h4 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(119, 117, 117);
     color: white;
     text-align: center;
 }
+-----*/
+
+.contact-form-section {
+    height: 600px;
+    position: relative;
+    color: white;
+}
+
+.contact-form-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.form-overlay {
+    padding: 50px;
+    top: 100%;
+    left: 100%;
+    transform: translate(-0%, -120%);
+    background-color: #ffc10757;
+    height: 100%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ffc107;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 
-/* ----------------------------------------Footer */
+/* ----------------------------------------Footer --------------------*/
 
 footer {
     background-color: #19254e;
@@ -210,6 +278,11 @@ footer {
     margin: 0;
     padding-top: .5rem;
     padding-bottom: 0rem;
+    position: sticky;
+}
+
+.footer-row {
+    height: fit-content;
 }
 
 .social-links li a i {
@@ -232,3 +305,17 @@ footer {
     text-align: center;
     margin: auto;
 }
+
+
+/* ----------------------------------------Media Queries ----
+
+@media(min-width: 992px) {
+    .hero-image-container {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+-----*/
