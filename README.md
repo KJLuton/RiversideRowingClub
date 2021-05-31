@@ -3,7 +3,7 @@
 
 [insert image mock up here]
 
-Website presents XXXXX Rowing Club as a rowing club in London who has active members and is currently recruiting for the new season. Users will be able to find engaging content in easy and simple way.
+Website presents Riverside Rowing Club as a successful rowing club in London who has active members and is currently recruiting for the new season. Users will be able to find engaging content in easy and simple way.
 
 This project is for educational purposes and does not represent an actual Rowing club. The website is build with HTML, CSS and Bootstrap framework. It will be responsive for multiple screen types.
 
@@ -15,12 +15,14 @@ This project is for educational purposes and does not represent an actual Rowing
 - [UX](#ux)
     - [Website owner business goals](#website-owner-business-goals)
     - [User goals](#user-goals)
-        - [New user goals](#new-user-goals)
-        - [Returning user goals](#returning-user-goals)
-        - [Website owner business goals](#website-owner-business-goals)
+        - [New user goals](##new-user-goals)
+        - [Returning user goals](##returning-user-goals)
     - [User stories](#user-stories)
-    - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
+        - [Homepage - Wireframe](##homepage-wireframe)
+        - [Join Us Page - Wireframe](#join-us-page-wireframe)
+        - [Members Page - Wireframe](#members-page-wireframe)
+        - [Contact Us Page - Wireframe](#contact-us-page-wireframe)
     - [Surface](#surface)
 - [Features](#features)
 - [Technology](#technology)
@@ -59,8 +61,6 @@ Increase membership by providing information about the rowing club and coaching 
 - User can find important documents relating to the club
 
 
-NEED TO UPDATE THIS
-
 ## User stories
 
 User 1:
@@ -72,8 +72,40 @@ John is a male, experienced rower in his early 20s. He has just moved to London 
 User 3:
 Katie is a female in her late 30s. She is an experienced rower and a long-time member of the club. She wants to find out about upcoming race dates and volunteering opportunities. She also needs to buy some new kit as her old kit has worn out. 
 
+## Wireframes
 
-Photos: 
+### Homepage - Wireframe
+![Homepage-Wireframe](assets/images/wireframes/Homepage-wireframe.png)
+
+### Join Us Page - Wireframe
+![Join-Us-page-Wireframe](assets/images/wireframes/Joinuspage-wireframe.png)
+
+### Members Page - Wireframe
+![Members-page-Wireframe](assets/images/wireframes/Memberspage-wireframe.png)
+
+### Contact Us Page - Wireframe
+![Contact-Us-page-Wireframe](assets/images/wireframes/Contactuspage-wireframe.png)
+
+## Surface
+
+# Features
+# Technology
+# Testing
+
+## Functionality Testing
+## Compatibility Testing
+## Code Validation
+## User Stories Testing
+## Issues Found during site development
+## Performance Testing
+
+# Deployment
+
+# Credits
+
+#### Code:
+
+#### Photos (Generla Rowing): 
 Photo by <a href="https://unsplash.com/@mateovrb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mateo Vrbnjak</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@mattyfours?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Fournier</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -98,6 +130,19 @@ Photo by <a href="https://unsplash.com/@anikinearthwalker?utm_source=unsplash&ut
   
 Photo by <a href="https://unsplash.com/@victorfreitas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Freitas</a> on <a href="https://unsplash.com/collections/8795314/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+#### Photos (Coaches):
+
+Photo by <a href="https://unsplash.com/@stephtcook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephanie Cook</a> on <a href="https://unsplash.com/s/photos/smiling-headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@ryanhoffman007?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Hoffman</a> on <a href="https://unsplash.com/s/photos/smiling-headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@kyddvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dillon Kydd</a> on <a href="https://unsplash.com/s/photos/smiling-headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeffrey F Lin</a> on <a href="https://unsplash.com/s/photos/rowing-coach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+# Screenshots
+
 
 
 [Back to Table of contents](#table-of-contents)
