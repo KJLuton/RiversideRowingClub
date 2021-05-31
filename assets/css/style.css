@@ -18,6 +18,21 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+}
+
 p {
     font-family: 'Signika Negative', sans-serif;
     font-weight: 400;
@@ -384,6 +399,27 @@ h4 {
 
 /*----Useful links ----*/
 
+.useful-links-header {
+    padding: 30px;
+}
+
+.useful-links-text {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.useful-link-btn-row {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 1rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+}
 
 
 /*----Racing and Training Kit----*/
