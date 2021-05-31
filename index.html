@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Riverside Rowing Club - Homepage</title>
 </head>
@@ -55,7 +56,7 @@
         <div class="row">
             <section class="text-center">
                 <h1>Welcome to Riverside Rowing Club</h1>
-                <p>The funnest rowing club on the tideway</p>
+                <p>Winning medals and having fun since 1990</p>
             </section>
         </div>
     </div>
@@ -111,40 +112,44 @@
     <div class="container-fluid contact-form-section">
         <img src="assets/images/credit/kyle-kranz-ss1YP57gLbM-unsplash.jpg" alt="rowing" style="width:100%;">
         <div class="row contact-form-section form-overlay">
-            <div class="col-lg-3 col-md-2 col-sm-none"></div>
+            <div class="col-lg-3 col-md-2 col-sm-none">
+            </div>
             <div class="col-lg-6 col-md-8 col-sm-12">
-                <h1>Contact Us</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="firstname">First Name</label>
-                        <input type="text" class="form-control" id="firstname" placeholder="First Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="lastname">Last Name</label>
-                        <input type="text" class="form-control" id="lastname" placeholder="Last Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="EmailaddressInput">Email address</label>
-                        <input type="email" class="form-control" id="EmailaddressInput" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="contactreason">Contact Reason</label>
-                        <select class="form-control" id="contactreason">
-                        <option>Select your reason for contact</option>
-                        <option>Membership query</option>
-                        <option>Volunteering</option>
-                        <option>Members questions</option>
-                        <option>Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                    <label for="formmessagearea">Message</label>
-                    <textarea class="form-control" id="formmessagearea" rows="3" placeholder="Type your message here"></textarea>
-                    </div>
-                    <div class="form-group">
-                    <input class="btn btn-primary" type="submit" value="Submit">
-                    </div>
-                </form>
+                <h1 class="text-center">Contact Us</h1>
+                <p>Got a question for us? contact our membership director today.</p>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailaddressInput">Email address</label>
+                            <input type="email" name="email" class="form-control" id="EmailaddressInput" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactreason">Contact Reason</label>
+                            <select class="form-control" name="contact_reason" id="contactreason">
+                            <option>Select your reason for contact</option>
+                            <option>Membership query</option>
+                            <option>Volunteering</option>
+                            <option>Members questions</option>
+                            <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                        <label for="formmessagearea">Message</label>
+                        <textarea class="form-control" name="message" id="formmessagearea" rows="4" placeholder="Type your message here" required></textarea>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col form-button">
+                                <button class="btn btn-primary" type="submit" value="Submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="col-lg-3 col-md-2 col-sm-none">
             </div>

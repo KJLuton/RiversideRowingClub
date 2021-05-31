@@ -203,42 +203,49 @@
 </section>       
 <!------------------------- /.Meet the coaches section  --------------------------> 
     
-<!------------------------ Contact us bottom page ----------------------->
+<!---------------------------- Contact us bottom page ------------------------->
 <section class="contact-form-section">
     <div class="container-fluid contact-form-section">
         <img src="assets/images/credit/kyle-kranz-ss1YP57gLbM-unsplash.jpg" alt="rowing" style="width:100%;">
         <div class="row contact-form-section form-overlay">
-            <div class="col-lg-3 col-md-2 col-sm-none"></div>
+            <div class="col-lg-3 col-md-2 col-sm-none">
+            </div>
             <div class="col-lg-6 col-md-8 col-sm-12">
-                <h1>Contact Us</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="firstname">First Name</label>
-                        <input type="text" class="form-control" id="firstname" placeholder="First Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="lastname">Last Name</label>
-                        <input type="text" class="form-control" id="lastname" placeholder="Last Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="EmailaddressInput">Email address</label>
-                        <input type="email" class="form-control" id="EmailaddressInput" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="contactreason">Contact Reason</label>
-                        <select class="form-control" id="contactreason">
-                        <option>Select your reason for contact</option>
-                        <option>Membership query</option>
-                        <option>Volunteering</option>
-                        <option>Members questions</option>
-                        <option>Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                    <label for="formmessagearea">Message</label>
-                    <textarea class="form-control" id="formmessagearea" rows="3" placeholder="Type your message here"></textarea>
-                    </div>
-                </form>
+                <h1 class="text-center">Contact Us</h1>
+                <p>Got a question for us? contact our membership director today.</p>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailaddressInput">Email address</label>
+                            <input type="email" name="email" class="form-control" id="EmailaddressInput" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactreason">Contact Reason</label>
+                            <select class="form-control" name="contact_reason" id="contactreason">
+                            <option>Select your reason for contact</option>
+                            <option>Membership query</option>
+                            <option>Volunteering</option>
+                            <option>Members questions</option>
+                            <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                        <label for="formmessagearea">Message</label>
+                        <textarea class="form-control" name="message" id="formmessagearea" rows="4" placeholder="Type your message here" required></textarea>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col form-button">
+                                <button class="btn btn-primary" type="submit" value="Submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="col-lg-3 col-md-2 col-sm-none">
             </div>

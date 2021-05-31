@@ -7,7 +7,7 @@ Website presents Riverside Rowing Club as a successful rowing club in London who
 
 This project is for educational purposes and does not represent an actual Rowing club. The website is build with HTML, CSS and Bootstrap framework. It will be responsive for multiple screen types.
 
-## [View life website in github pages](LINK HERE)
+## [View life website in github pages](https://kjluton.github.io/RiversideRowingClub/)
 ---
 
 # Table of Contents
@@ -19,10 +19,10 @@ This project is for educational purposes and does not represent an actual Rowing
         - [Returning user goals](##returning-user-goals)
     - [User stories](#user-stories)
     - [Wireframes](#wireframes)
-        - [Homepage - Wireframe](##homepage-wireframe)
-        - [Join Us Page - Wireframe](#join-us-page-wireframe)
-        - [Members Page - Wireframe](#members-page-wireframe)
-        - [Contact Us Page - Wireframe](#contact-us-page-wireframe)
+        - [Homepage - Wireframe](###homepage-wireframe)
+        - [Join Us Page - Wireframe](###join-us-page-wireframe)
+        - [Members Page - Wireframe](###members-page-wireframe)
+        - [Contact Us Page - Wireframe](###contact-us-page-wireframe)
     - [Surface](#surface)
 - [Features](#features)
 - [Technology](#technology)

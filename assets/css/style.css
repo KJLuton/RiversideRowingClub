@@ -261,7 +261,6 @@ h4 {
     height: fit-content;
     padding: 30px;
     color: #19254e;
-    text-align: justify;
 }
 
 /*----membership----*/
@@ -406,7 +405,7 @@ h4 {
 /* ----------------------------------------Contact form section-----------------*/
 
 .contact-form-section {
-    height: 600px;
+    height: 700px;
     position: relative;
     color: white;
 }
@@ -418,11 +417,15 @@ h4 {
     object-position: top;
 }
 
+.form-group {
+    padding-top: 10px;
+}
+
 .form-overlay {
     padding: 50px;
     top: 20%;
     transform: translate(-0%, -120%);
-    background-color: #ffc10757;
+    background-color: #ffc1077c;
     height: 100%;
 }
 
@@ -433,7 +436,7 @@ h4 {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #19254e;
     background-color: #fff;
     background-clip: padding-box;
     border: 2px solid #ffc107;
@@ -443,6 +446,16 @@ h4 {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.btn-primary {
+    color: #19254e;
+    background-color: #ffc107;
+    border-color: #19254e;
+    font-weight: 600;
+}
+
+.form-button{
+    padding-top: 20px;
+}
 
 /* ----------------------------------------Footer --------------------*/
 
