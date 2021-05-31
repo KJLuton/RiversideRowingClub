@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #19254e;
 }
 
@@ -127,22 +127,20 @@ h4 {
     padding-left: 15px;
 }
 
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
     background-color: #ffc107;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
 }
 
 /* --------- Homepage --------*/ 
 
 .container-welcome {
-    padding-top: 80px;
-    padding-bottom: 15px;
+    padding: 20px;
     background-color: #ffc107;
 }
 
@@ -150,69 +148,6 @@ h4 {
     color: #19254e;
 }
 
-.hero-image-section {
-    height: 600px;
-}
-
-/* --- Homepage - Call Cards Section ------*/
-
-.card-body-joinus {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    text-align: center;
-    background-color: beige;
-}
-
-.card-joinus {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 0px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    height: 200px;
-}
-
-.btn-joinus {
-    color: #19254e;
-    background-color: #ffc107;
-    border-color:  #ffc107;
-    width: 50%;
-}
-
-.card-body-members {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    text-align: center;
-    background-color: #ffc107;
-}
-
-.card-members {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 0px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    height: 200px;
-}
-
-.btn-members {
-    color: #ffc107;
-    background-color: #19254e;
-    border-color:  #19254e;
-    width: 50%;
-}
-
-.card-text {
-    padding-bottom: 20px;
-}
-
-/* -------/.Homepage - call Cards Section ------*/
 /* -------Homepage - motivation section ------*/
 
 .motivation-section{
