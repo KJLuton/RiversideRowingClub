@@ -108,7 +108,7 @@ h4 {
     color: #ffc107;
 }
 
-.nav-link li a:hover {
+.nav-link:hover {
     color: #f82121;
 }
 
@@ -137,7 +137,7 @@ h4 {
     transition: box-shadow .15s ease-in-out;
 }
 
-/* --------- Homepage --------*/ 
+/* ------------------------------- Homepage -----------------------------------*/ 
 
 .container-welcome {
     padding: 20px;
@@ -148,7 +148,7 @@ h4 {
     color: #19254e;
 }
 
-/* -------Homepage - motivation section ------*/
+/* ---- motivation section -------*/
 
 .motivation-section{
     height: 200px;
@@ -164,144 +164,12 @@ h4 {
     font-family: 'Signika Negative';
 }
 
-/* --- /.Homepage - motivation section ------*/
+/* ------- motivation section ---------*/
 
-/*------------------------------------ All Pages Header ----------------------------*/
-
-.page-header-container {
-    height: 300px;
-}
-
-.page-header-section {
-    height: 200px;
-    background-color: #ffc107;
-}
-
-.page-header-text {
-    padding-top: 85px;
-}
-
-.page-hero-image-section {
-    height: 300px;
-}
-
-.page-hero-image-section img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center 20%;
-}
-
-.members-page-hero-image-section {
-    height: 300px;
-}
-
-.members-page-hero-image-section img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center 70%;
-}
-
-/* -----------------------------------Join Us Page Sections ---------------------------------*/
-/*----About us----*/
-
-.about-us-section {
-    background-color: #fdfdfd;
-    height: fit-content;
-    padding: 30px;
-    color: #19254e;
-}
-
-/*----membership----*/
-
-.membership-section {
-    background-color: #ffda6c;
-    height: fit-content;
-    padding: 30px;
-    color: #19254e;
-    text-align: justify;
-}
-
-.membershipimage-container {
-    height: fit-content;
-    border: 1rem solid;
-}
-
-.membershipimage img {
-    height: 100%;
-    object-fit: fill;
-    object-position: center;
-}
-
-.table {
-    --bs-table-bg: transparent;
-    --bs-table-accent-bg: transparent;
-    --bs-table-striped-color: #212529;
-    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-    --bs-table-active-color: #212529;
-    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-    --bs-table-hover-color: #212529;
-    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #19254e;
-    vertical-align: top;
-    border-color: #19254e;
-}
+/*--------------Club Ethos------------*/
 
 
-/*----quotes----*/
-
-.joinus-quote-section {
-    height: 300px;
-    background-color: rgb(9, 255, 0);
-}
-
-.page-quote-image-section {
-    height: 300px;
-}
-
-.page-quote-image-section img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center 30%;
-    position: sticky;
-}
-
-/*---------facilities--------*/
-
-.facilities-section {
-    height: 300px;
-    background-color: rgb(255, 38, 0);
-}
-
-/*---------coaches--------*/
-
-.meet-coaches-header{
-    text-align: center;
-    padding: 30px;
-}
-
-.coaches-section {
-    height: 100%;
-    background-color: #fdfdfd;
-}
-
-.meet-coaches-section {
-    padding: 30px;
-}
-
-.coaches-card{
-    padding-bottom: 30px;
-}
-
-/* -----------------------------------Members Page Sections ---------------------------------*/
-/*----Club Ethos-------*/
-
-
-/*----Upcoming events----*/
+/*-----------Upcoming events----------*/
 
 .events-section {
     background-color: #ffda6c;
@@ -357,8 +225,146 @@ h4 {
     border-radius: .5rem;
 }
 
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn:hover {
+    color: #19254e;
+}
 
 /*----Racing and Training Kit----*/
+
+.kit-header{
+    text-align: center;
+    padding: 30px;
+}
+
+.kit-section {
+    height: 100%;
+    background-color: #fdfdfd;
+}
+
+.kit-card{
+    padding-bottom: 30px;
+}
+
+/*--------------/. racing and training kit ---------------*/
+
+/*------------------------------------ All Pages Header ----------------------------*/
+
+.page-header-container {
+    height: 300px;
+}
+
+.page-header-section {
+    height: 200px;
+    background-color: #ffc107;
+}
+
+.page-header-text {
+    padding-top: 85px;
+}
+
+.page-hero-image-section {
+    height: 300px;
+}
+
+.page-hero-image-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+}
+
+.members-page-hero-image-section {
+    height: 300px;
+}
+
+.members-page-hero-image-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 70%;
+}
+
+/* -----------------------------------Join Us Page Sections ---------------------------------*/
+/*---------------About us------------*/
+
+.about-us-section {
+    background-color: #fdfdfd;
+    height: fit-content;
+    padding: 30px;
+    color: #19254e;
+}
+
+/*------------membership-----------*/
+
+.membership-section {
+    background-color: #ffda6c;
+    height: fit-content;
+    padding: 30px;
+    color: #19254e;
+    text-align: justify;
+}
+
+.membershipimage-container {
+    height: fit-content;
+    border: 1rem solid;
+}
+
+.membershipimage img {
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #19254e;
+    vertical-align: top;
+    border-color: #19254e;
+}
+
+
+/*------------quotes-------------*/
+
+.joinus-quote-section {
+    height: 300px;
+    background-color: rgb(9, 255, 0);
+}
+
+.page-quote-image-section {
+    height: 300px;
+}
+
+.page-quote-image-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    position: sticky;
+}
+
+/*--------------facilities------------*/
+
+.facilities-section {
+    height: 300px;
+    background-color: rgba(255, 38, 0, 0);
+}
+
+/*--------------coaches---------------*/
 
 .meet-coaches-header{
     text-align: center;
@@ -370,9 +376,11 @@ h4 {
     background-color: #fdfdfd;
 }
 
-.meet-coaches-section {
-    padding: 30px;
+.coaches-card{
+    padding-bottom: 30px;
 }
+
+/*--------------/.coaches---------------*/
 
 /* ----------------------------------------Contact form section-----------------*/
 
@@ -450,10 +458,10 @@ footer {
     line-height: 7px;
     text-align: center;
     color:#f7ba00;    
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
 
 .social-links li a i:hover {
