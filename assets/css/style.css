@@ -15,7 +15,13 @@ h1 {
 
 h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 900px){
+    h2 {
+        font-size: 40px;
+    }
 }
 
 h3 {
@@ -49,11 +55,30 @@ p {
 }
 
 .homepage-header {
-    font-size: 3.5rem;
+    font-size: 90px;
+}
+
+@media screen and (max-width: 1200px){
+    .homepage-header  {
+        font-size: 60px; 
+    }
+}
+
+@media screen and (max-width: 990px){
+    .homepage-header  {
+        font-size: 40px; 
+    }
 }
 
 .pages-header {
-    font-size: 5rem;
+    font-size: 90px;
+}
+
+@media screen and (max-width: 990px){
+    .pages-header  {
+        font-size: 70px; 
+        padding: 10px;
+    }
 }
 
 /* ------------------------ Special paddings / margins -------------*/
@@ -112,7 +137,7 @@ h4 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: beige;
+    color: #f7ebc7;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-size: 20px;
@@ -123,19 +148,21 @@ h4 {
     color: #ffc107;
 }
 
-.nav-link:hover {
-    color: #f82121;
+.navbar-light .navbar-nav .nav-link:hover {
+text-decoration: underline;
+color: #f7ebc7;
 }
 
-#navbar-announcement {
-    text-align: right;
-    font-size: 15px;
-    font-weight: 200;
-    padding-top: 15px;
-    padding-right: 15px;
-    font-family: 'Signika Negative', sans-serif;
-    color: #ffc107;
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+
 
 #navbar-logo {
     padding-top: 15px;
@@ -150,9 +177,48 @@ h4 {
     border: 1px solid #dee2e6;
     border-radius: .25rem;
     transition: box-shadow .15s ease-in-out;
+    margin: 15px;
 }
 
 /* ------------------------------- Homepage -----------------------------------*/
+
+/* ------------Alert message --------------*/
+
+.alert-warning {
+    color: #ffc107;
+    background-color: #566877;
+    border-color: #566877;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    border: 1px solid transparent;
+    margin-bottom: 0rem;
+    border-radius: .25rem;
+}
+
+  .alert .inner, .alert .close {
+    color: #ffc107;
+}
+
+.alert .close {
+    float: right;
+    cursor: pointer;
+    background-color: #ffc10700;
+    color: #ffc107;
+    border: none;
+}
+
+.alert-signup-link {
+    color: #fff;
+}
+
+.alert-signup-link:hover {
+    color: #a57c00;
+}
+
+/* ------------/. Alert message --------------*/
 
 .container-welcome {
     padding: 20px;
@@ -183,6 +249,12 @@ h4 {
 
 /*--------------Club Ethos------------*/
 
+.club-ethos-section {
+    background-color: #fdfdfd;
+    height: fit-content;
+    padding: 30px;
+    color: #19254e;
+}
 
 /*-----------Upcoming events----------*/
 
@@ -284,10 +356,6 @@ h4 {
     background-color: #ffc107;
 }
 
-.page-header-text {
-    padding-top: 20px;
-}
-
 /* -----------------------------------Join Us Page Sections ---------------------------------*/
 /*---------------About us------------*/
 
@@ -301,7 +369,7 @@ h4 {
 /*------------membership-----------*/
 
 .membership-section {
-    background-color: #ffda6c;
+    background-color: #ffefbf;
     height: fit-content;
     padding: 30px;
     color: #19254e;
@@ -313,7 +381,8 @@ h4 {
 
 .membershipimage-container {
     height: fit-content;
-    border: 1rem solid;
+    border: .25rem solid;
+    color: #ffc107;
 }
 
 .membershipimage img {
@@ -338,6 +407,28 @@ h4 {
     border-color: #19254e;
 }
 
+/*-------------------Squad section--------------------*/
+
+.squads-section {
+    height: 100%;
+    background-color: #19254e;
+    position: relative;
+    padding-bottom: 40px;
+    color: #f3f3f3;
+}
+
+.squad-header {
+    text-align: center;
+    padding: 30px;
+}
+
+.squad-text {
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+
+}
+
+/*-------------------/.Squad section--------------------*/ 
 
 /*-------------------Parallax--------------------*/
 
@@ -355,18 +446,30 @@ Code assistance from here -------*/
     background-size: cover;
 }
 
-
+/*-------------------/.Parallax--------------------*/
 /*----------------------facilities--------------------*/
+
+.club-facilities-header {
+    text-align: center;
+    padding: 30px;
+}
 
 .facilities-section {
     height: 100%;
     background-color: #487caf;
     position: relative;
     padding-bottom: 40px;
+    color: #f3f3f3;
 }
 
 .facilities-icon {
     font-size: xx-large;
+    color: #19254e;
+    padding: 10px 10px 0px 10px;
+}
+
+.facilities-text {
+    padding: 10px 10px 0px 10px;
 }
 
 /*--------------coaches---------------*/
@@ -374,6 +477,11 @@ Code assistance from here -------*/
 .meet-coaches-header {
     text-align: center;
     padding: 30px;
+}
+
+.coach-headers {
+    text-align: center;
+    font-weight: 700;
 }
 
 .coaches-section {
