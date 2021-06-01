@@ -245,7 +245,7 @@ color: #f7ebc7;
     font-family: 'Signika Negative';
 }
 
-/* ------- motivation section ---------*/
+/* ------- /.motivation section ---------*/
 
 /*--------------Club Ethos------------*/
 
@@ -256,6 +256,7 @@ color: #f7ebc7;
     color: #19254e;
 }
 
+/*--------------/./Club Ethos------------*/
 /*-----------Upcoming events----------*/
 
 .events-section {
@@ -267,14 +268,6 @@ color: #f7ebc7;
 }
 
 .table {
-    --bs-table-bg: transparent;
-    --bs-table-accent-bg: transparent;
-    --bs-table-striped-color: #212529;
-    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-    --bs-table-active-color: #212529;
-    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-    --bs-table-hover-color: #212529;
-    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
     width: 100%;
     margin-bottom: 1rem;
     color: #19254e;
@@ -282,6 +275,7 @@ color: #f7ebc7;
     border-color: #19254e;
 }
 
+/*-----------/.Upcoming events----------*/
 
 /*---- Image section ----*/
 
@@ -534,8 +528,6 @@ Code assistance from here -------*/
     background-color: #fff;
     background-clip: padding-box;
     border: 2px solid #ffc107;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -572,10 +564,6 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #f7ba00;
-    transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -webkit-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
 }
 
 .social-links li a i:hover {
