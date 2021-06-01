@@ -110,22 +110,6 @@ h4 {
     list-style: none;
 }
 
-.row {
-    --bs-gutter-x: 0 rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2);
-}
-
-.list-inline {
-    padding-left: 20px;
-    padding-top: 20px;
-    list-style: none;
-}
-
 .justify-content-center {
     justify-content: center;
 }
