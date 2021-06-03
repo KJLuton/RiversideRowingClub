@@ -3,7 +3,7 @@
 
 [insert image mock up here]
 
-The ![Riverside Rowing Club](https://kjluton.github.io/RiversideRowingClub/) website was built by Kirstyn Luton. ebsite presents Riverside Rowing Club as a successful rowing club in London. The rowing club has active members of all ages and abilities. They are currently recruiting new athletes for the new season and are promoting their 'Learn to Row' courses which take place in September. Users will find the content engaging, useful and will be able to navigate around the website in an efficient manner.
+The [Riverside Rowing Club](https://kjluton.github.io/RiversideRowingClub/) website was built by Kirstyn Luton. ebsite presents Riverside Rowing Club as a successful rowing club in London. The rowing club has active members of all ages and abilities. They are currently recruiting new athletes for the new season and are promoting their 'Learn to Row' courses which take place in September. Users will find the content engaging, useful and will be able to navigate around the website in an efficient manner.
 
 Disclaimer: This website has been built for entertainment and education purposes. It does not represent an actual rowing club. The website is build with HTML, CSS and Bootstrap framework. It should be responsive for multiple screen types.
 
