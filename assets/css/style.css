@@ -5,11 +5,12 @@
 
 body {
     font-family: 'Signika Negative', sans-serif;
+    color: #19254e;
 }
 
 h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #19254e;
 }
 
@@ -18,15 +19,15 @@ h2 {
     font-size: 50px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     h2 {
         font-size: 40px;
     }
 }
 
 h3 {
-    font-family: 'Signika Negative', sans-serif;
-    font-weight: 800;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
 }
 
 h4 {
@@ -58,15 +59,15 @@ p {
     font-size: 90px;
 }
 
-@media screen and (max-width: 1200px){
-    .homepage-header  {
-        font-size: 60px; 
+@media screen and (max-width: 1200px) {
+    .homepage-header {
+        font-size: 60px;
     }
 }
 
-@media screen and (max-width: 990px){
-    .homepage-header  {
-        font-size: 40px; 
+@media screen and (max-width: 990px) {
+    .homepage-header {
+        font-size: 40px;
     }
 }
 
@@ -74,9 +75,9 @@ p {
     font-size: 90px;
 }
 
-@media screen and (max-width: 990px){
-    .pages-header  {
-        font-size: 70px; 
+@media screen and (max-width: 990px) {
+    .pages-header {
+        font-size: 70px;
         padding: 10px;
     }
 }
@@ -120,6 +121,10 @@ h4 {
     list-style: none;
 }
 
+.end-section-icon {
+    padding: 10px;
+}
+
 /* ------------------------ Navbar ------------------*/
 
 .navbar-container {
@@ -145,8 +150,8 @@ h4 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-text-decoration: underline;
-color: #f7ebc7;
+    text-decoration: underline;
+    color: #f7ebc7;
 }
 
 .navbar {
@@ -188,10 +193,11 @@ color: #f7ebc7;
     padding: 1rem;
     border: 1px solid transparent;
     margin-bottom: 0rem;
-    border-radius: .25rem;
+    border-radius: 0rem;
 }
 
-  .alert .inner, .alert .close {
+.alert .inner,
+.alert .close {
     color: #ffc107;
 }
 
@@ -213,7 +219,7 @@ color: #f7ebc7;
 
 /* ------------/. Alert message --------------*/
 
-/* ---- helcome/header container -------*/
+/* ---- helcome/header container ---------*/
 
 .container-welcome {
     background-color: #ffc107;
@@ -281,11 +287,6 @@ color: #f7ebc7;
 
 /*----Useful links ----*/
 
-
-.useful-links-header {
-    padding: 30px;
-}
-
 .useful-links-text {
     padding-bottom: 30px;
     padding-left: 20px;
@@ -351,17 +352,17 @@ color: #f7ebc7;
 /* -----------------------------------Join Us Page Sections ---------------------------------*/
 /*---------------About us------------*/
 
-.about-us-section {
-    background-color: #fdfdfd;
+.information-sections-style {
+    background-color: #fafafa;
     height: fit-content;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     color: #19254e;
 }
 
 /*------------membership-----------*/
 
 .membership-section {
-    background-color: #ffefbf;
+    background-color: #fafafa;
     height: fit-content;
     padding: 30px;
     color: #19254e;
@@ -377,12 +378,6 @@ color: #f7ebc7;
     color: #ffc107;
 }
 
-.membershipimage img {
-    height: 100%;
-    object-fit: fill;
-    object-position: center;
-}
-
 .table {
     width: 100%;
     margin-bottom: 1rem;
@@ -391,28 +386,39 @@ color: #f7ebc7;
     border-color: #19254e;
 }
 
+.table-header {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
 /*-------------------Squad section--------------------*/
 
 .squads-section {
     height: 100%;
-    background-color: #19254e;
     position: relative;
-    padding-bottom: 40px;
-    color: #f3f3f3;
-}
-
-.squad-header {
-    text-align: center;
+    background-color: #e1e1e1;
+    height: fit-content;
+    color: #19254e;
     padding: 30px;
 }
 
-.squad-text {
-    padding: 10px 10px 0px 10px;
-    font-size: 20px;
-
+.squads-header-row {
+    padding-bottom: 20px;
 }
 
-/*-------------------/.Squad section--------------------*/ 
+.squad-header-text {
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.squad-text {
+    padding: 0px 30px 30px 30px;
+    text-align: justify;
+}
+
+
+/*-------------------/.Squad section--------------------*/
 
 /*-------------------Parallax--------------------*/
 
@@ -503,7 +509,7 @@ Code assistance from here -------*/
     padding: 50px;
     top: 20%;
     transform: translate(-0%, -120%);
-    background-color: #ffc1077c;
+    background-color: rgba(247, 235, 199, 0.349);
     height: 100%;
 }
 
@@ -525,8 +531,14 @@ Code assistance from here -------*/
 .btn-primary {
     color: #19254e;
     background-color: #ffc107;
-    border-color: #19254e;
+    border-color: #ffc107;
     font-weight: 600;
+}
+
+.btn-primary:hover {
+    color: #ffc107;
+    background-color: #19254e;
+    border-color: #19254e;
 }
 
 .form-button {
@@ -570,7 +582,7 @@ footer {
 /* ----------------------------------------Media Queries ---------*/
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
+    .parallax {
+        background-attachment: scroll;
+    }
 }
