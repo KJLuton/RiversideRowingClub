@@ -122,6 +122,12 @@ h4 {
 
 /* ------------------------ Navbar ------------------*/
 
+.navbar-container {
+    width: 100%;
+    height: 70px;
+    background-color: #ffc107;
+}
+
 .bg-light {
     background-color: rgb(25, 37, 78) !important;
 }
@@ -144,11 +150,7 @@ color: #f7ebc7;
 }
 
 .navbar {
-    position: relative;
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -182,7 +184,8 @@ color: #f7ebc7;
 
 .alert {
     position: relative;
-    padding: 1rem 1rem;
+    width: 100%;
+    padding: 1rem;
     border: 1px solid transparent;
     margin-bottom: 0rem;
     border-radius: .25rem;
@@ -210,14 +213,19 @@ color: #f7ebc7;
 
 /* ------------/. Alert message --------------*/
 
+/* ---- helcome/header container -------*/
+
 .container-welcome {
-    padding: 20px;
     background-color: #ffc107;
+    padding: 1em;
+    position: relative;
 }
 
 .container-welcome p {
     color: #19254e;
 }
+
+/* ---- /.helcome/header container -------*/
 
 /* ---- motivation section -------*/
 
@@ -414,7 +422,7 @@ color: #f7ebc7;
 Code assistance from here -------*/
 
 .parallax {
-    background-image: url("/assets/images/own/RowingMhug.jpeg");
+    background-image: url("/assets/images/own/rowingmhug.jpeg");
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;

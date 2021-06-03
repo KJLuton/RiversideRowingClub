@@ -18,7 +18,8 @@
 <body>
     <!-- Header -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" id="navbar-logo" href="index.html">
                 <img src="assets/images/logos/RiversideRowingclub_colourlogo.png" alt="Riverside RC Logo" width="150"
@@ -49,9 +50,18 @@
     <!-- /.navbar -->
     </header>
     <!-- /.header -->
+    <!-- alert bar -->
+<div class="text-center alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Learn to Row!</strong> Beginner courses are starting in September. <a class="alert-signup-link"
+        href="contactus.html"><strong>Contact us</strong></a> to sign up now!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+    </button>
+</div>
+<!-- /.alert bar -->
     <!-- Welcome and hero image section -->
-    <section class="page-header-section">
-        <div class="container-fluid">
+    <section class="welcome-section">
+        <div class="container-fluid container-welcome">
             <div class="row">
                 <section class="text-center">
                     <h1 class="pages-header">Join Us</h1>
@@ -59,8 +69,8 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid page-hero-image-section">
-        <div class="row page-hero-image-section">
+    <section class="container-fluid hero-image-section">
+        <div class="row hero-image">
             <img src="assets/images/own/Henelypodium.jpeg" class="d-block img-fluid w-100" alt="rowingpicture">
         </div>
     </section>
@@ -237,7 +247,7 @@
             <div class="row">
                 <div class="coaches-card col-lg-3 col-md-6 col-sm-9">
                     <div class="card mx-auto" style="width: 15rem;">
-                        <img src="assets/images/coaches/jeffrey-f-lin-mR0UX_A6gQY-unsplash (240x300).png"
+                        <img src="assets/images/coaches/jeffrey-f-lin-mR0UX_A6gQY-unsplash(240x300).png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="coach-headers">Head Coach</h5>
@@ -251,7 +261,7 @@
                 </div>
                 <div class="coaches-card col-lg-3 col-md-6 col-sm-9">
                     <div class="card mx-auto" style="width: 15rem;">
-                        <img src="/assets/images/coaches/dillon-kydd-tHk6m4vgMys-unsplash (240x300).png"
+                        <img src="assets/images/coaches/dillon-kydd-tHk6m4vgMys-unsplash(240x300).png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="coach-headers">Assistant Coach / Club Captain</h5>
@@ -263,7 +273,7 @@
                 </div>
                 <div class="coaches-card col-lg-3 col-md-6 col-sm-9">
                     <div class="card mx-auto" style="width: 15rem;">
-                        <img src="assets/images/coaches/ryan-hoffman-v7Jja2ChN6s-unsplash (240x300).png"
+                        <img src="assets/images/coaches/ryan-hoffman-v7Jja2ChN6s-unsplash(240x300).png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="coach-headers">Novice Coach</h5>
@@ -275,7 +285,7 @@
                 </div>
                 <div class="coaches-card col-lg-3 col-md-6 col-sm-9">
                     <div class="card mx-auto" style="width: 15rem;">
-                        <img src="assets/images/coaches/stephanie-cook-NDCy2-9JhUs-unsplash (240x300).png"
+                        <img src="assets/images/coaches/stephanie-cook-NDCy2-9JhUs-unsplash(240x300).png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="coach-headers">Master's Coach</h5>

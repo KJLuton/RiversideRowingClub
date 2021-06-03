@@ -271,6 +271,9 @@ https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md
 
 #### Code:
 
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+
+
 
 # Acknowledgements
 
