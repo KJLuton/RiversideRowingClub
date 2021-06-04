@@ -190,7 +190,8 @@ Further developments I would make to the sites features would be:
 * Add a confirmation notification for the contact form to notify the user of a successful message send. 
 * Add a Membership creation area where prospective members can apply for membership online.
 * Create a sign-in area for Members which can host exclusive members information about their fees, club training plans and member exclusive events. 
-* Add a data capture form for a newsletter 
+* Add a data capture form for a newsletter. 
+* Add a google location with map integration to allow users to find the club easily.
 
 
 [Back to table of contents](#table-of-contents)
