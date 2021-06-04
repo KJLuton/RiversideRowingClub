@@ -569,6 +569,15 @@ Code assistance from here -------*/
     padding-top: 20px;
 }
 
+/* ----------------------------------------cta above footer --------------------*/
+
+.bottompage-cta {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+}
+
 /* ----------------------------------------Footer --------------------*/
 
 footer {
