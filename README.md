@@ -3,9 +3,9 @@
 
 [insert image mock up here]
 
-The [Riverside Rowing Club](https://kjluton.github.io/RiversideRowingClub/) website was built by Kirstyn Luton. ebsite presents Riverside Rowing Club as a successful rowing club in London. The rowing club has active members of all ages and abilities. They are currently recruiting new athletes for the new season and are promoting their 'Learn to Row' courses which take place in September. Users will find the content engaging, useful and will be able to navigate around the website in an efficient manner.
+The [Riverside Rowing Club](https://kjluton.github.io/RiversideRowingClub/) website was built by Kirstyn Luton as part of the User Centric Frontend Development, Milestone 1 Project with Code Institute. The website presents Riverside Rowing Club as a successful rowing club in London. The rowing club has active members of all ages and abilities. The website allows the club to recruit new athletes are promote their 'Learn to Row' course which takes place every September. Users will find the content engaging, useful and will be able to navigate around the website in an efficient manner.
 
-Disclaimer: This website has been built for entertainment and education purposes. It does not represent an actual rowing club. The website is build with HTML, CSS and Bootstrap framework. It should be responsive for multiple screen types.
+Disclaimer: This website has been built for entertainment and education purposes. It does not represent an actual rowing club. The website is build with HTML, CSS and Bootstrap framework. Javascript has also been used to provide an interactive element to some of the features. The website is responsive for multiple screen types.
 
 ## [View life website in github pages](https://kjluton.github.io/RiversideRowingClub/)
 ---
@@ -25,7 +25,7 @@ Disclaimer: This website has been built for entertainment and education purposes
         - [Contact Us Page - Wireframe](###contact-us-page-wireframe)
     - [Surface](#surface)
 - [Features](#features)
-- [Technology](#technology)
+- [Technologies Used](#technologies-used)
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
@@ -41,15 +41,15 @@ Disclaimer: This website has been built for entertainment and education purposes
 
 ## Website owner business goals
 
-Riverside Rowing club as a group are the website's owner. The website goal is to create an onlone presence for the Riverside Rowing Club to allow their members to get important information about the club and the rowing season. The website will also be used to promote the club to propspective memebrs and grow the rowing clubs membership holders. It will do this by providing information about the coaches, facilities and achievements. 
+The website owner is the Riverside Rowing club's commitee. The goal of the website is to create an online presence for the Club which allows both members and prospective members to get important information about the club and it's facilities. The website will be a promotional tool for the Club, with a goal to engage and entice propspective members into joining the Club. It will do this by providing information about the coaches, facilities and achievements. 
 
 ## User goals
 
 ### New user goals (prospective Rowing Club members):
 
-- User is able to find out about the Rowing Club’s facilities, membership prices and location
-- User is able to find out about the Rowing club’s goals and previous achievements, upcoming events and coaches
-- User can download a membership form and get application details
+- User is able to find out about the Rowing Club’s facilities, membership prices and location.
+- User is able to find out about the Rowing club’s goals and previous achievements, upcoming events and coaches.
+- User can download a membership form and get application details.
 - User can find the club location and contact relevant people.
 
 ### Returning user goals (Rowing Club members):
@@ -88,20 +88,27 @@ Katie is a female in her late 30s. She is an experienced rower and a long-time m
 ### Colours
 
 The main colours used in this project are: 
+![colour-pallet](assets/images/readme_images/assets/ms1_colour_pallet.png)
 
-Riverside Rowing Club logo blue: 
-Riverside Rowing Club logo yellow: 
-Link colour: 
-Hover link colour: 
+* Riverside Rowing Club logo blue: #19254e
+* Riverside Rowing Club logo yellow: #ffc107
+* Main background colour: #fafafa
+* Secondary background colour: #e1e1e1
+* Links in main body: #dea700
+* Hover on links: #566877
+
+The link and link hover colours are intentionally duller than the main colours to improve readability whilst standing out from the copy.
 
 ### Fonts
 
-The header font used is BEBAS 
-The body and paragraph font is 
+The fonts are installed from [Google Fonts](https://fonts.google.com/):
+
+* h1, h2, h3: 'Bebas Neue' with the secondary font as 'cursive' 
+* h4, h5, p: 'Signika Negative' with the secondary font as 'sans-serif' 
 
 ### Images
 
-I used a mixture of my own images and images from ![Unsplash.com](https://unsplash.com/). I have credited these in the ![credits section](#credits)
+I used a mixture of my own images and images from [Unsplash.com](https://unsplash.com/). I have credited these in the [credits section.](#credits)
 
 [Back to table of contents](#table-of-contents)
 
@@ -166,27 +173,31 @@ _______
 
 # Technologies Used
 
-### HTML5
+## Languages Used
 
-### CSS
+* #### [HTML5](https://en.wikipedia.org/wiki/HTML5) - HTML was used to build the website structure and overall layout. 
 
-### Bootstrap 
+* #### [CSS3](https://en.wikipedia.org/wiki/CSS) - CSS was used to style the website and build on the Bootstrap framework to customise the website to the owners brand. 
 
-### Font Awesome 
+## Frameworks, Libraries and Programmes Used
 
-### Google Fonts
+* #### Bootstrap 
 
-### GitHub
+* #### [Font Awesome](https://fontawesome.com/)
 
-### GitPod
+* #### [Google Fonts](https://fonts.google.com/): 
+    Google Fonts were used to install the 'Bebas Neue' and 'Signika Negative' fonts which were used across the site. 
 
-### Balsamic 
+* #### [GitHub](https://github.com/)
 
-Wireframing tool 
+* #### [GitPod](https://www.gitpod.io/)
 
-### Photoshop 
+* #### [Balsamic](https://balsamiq.com/) 
+    The Balsamic programme was used to build and develop the projects [Wireframes](#wireframes). 
 
-As image editor
+* #### [Adobe Photoshop](https://www.photoshop.com/en) 
+    Adobe Photoshop was used to create the logo, edit images and resize images for the website. 
+
 
 [Back to table of contents](#table-of-contents)
 _______

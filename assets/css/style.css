@@ -210,19 +210,6 @@ h4 {
     border-radius: 0rem;
 }
 
-.alert .inner,
-.alert .close {
-    color: #ffc107;
-}
-
-.alert .close {
-    float: right;
-    cursor: pointer;
-    background-color: #ffc10700;
-    color: #ffc107;
-    border: none;
-}
-
 .alert-signup-link {
     color: #fff;
 }
@@ -432,12 +419,6 @@ h4 {
     padding: 30px 30px 10px 30px;
     font-size: 2rem;
     text-align: left;
-}
-
-.squad-header-text-right {
-    padding: 30px 30px 10px 30px;
-    font-size: 2rem;
-    text-align: right;
 }
 
 .squad-text {
