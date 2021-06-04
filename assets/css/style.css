@@ -125,7 +125,13 @@ h4 {
     padding: 10px;
 }
 
-/* ------------------------ Navbar ------------------*/
+/* ------------------------ colours ------------------*/
+
+.body-links {
+    color: #dea700;
+} 
+
+/* ------------------------ navbar ------------------*/
 
 .navbar-container {
     width: 100%;
@@ -158,6 +164,10 @@ h4 {
     display: flex;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.navbar-open {
+    justify-content: center;
 }
 
 
@@ -223,7 +233,7 @@ h4 {
 
 .container-welcome {
     background-color: #ffc107;
-    padding: 1em;
+    padding: 0;
     position: relative;
 }
 
@@ -359,17 +369,24 @@ h4 {
     color: #19254e;
 }
 
-/*------------membership-----------*/
-
-.membership-section {
+.ltr-sections-style {
     background-color: #fafafa;
     height: fit-content;
     padding: 30px;
     color: #19254e;
 }
 
-.membership-para {
-    text-align: left;
+.ltr-body-text {
+    text-align: justify;
+}
+
+/*------------membership-----------*/
+
+.membership-section {
+    background-color: #e1e1e1;
+    height: fit-content;
+    padding: 30px;
+    color: #19254e;
 }
 
 .membershipimage-container {
@@ -406,10 +423,16 @@ h4 {
     padding-bottom: 20px;
 }
 
-.squad-header-text {
-    padding: 10px;
+.squad-header-text-left {
+    padding: 30px 30px 10px 30px;
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
+}
+
+.squad-header-text-right {
+    padding: 30px 30px 10px 30px;
+    font-size: 2rem;
+    text-align: right;
 }
 
 .squad-text {
