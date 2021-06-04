@@ -129,7 +129,7 @@ h4 {
 
 .body-links {
     color: #dea700;
-} 
+}
 
 .body-links:hover {
     color: #566877;
@@ -367,6 +367,11 @@ h4 {
     color: #19254e;
 }
 
+.ltr-text-header {
+    text-align: left;
+    padding: 10px 30px 10px 30px;
+}
+
 .ltr-body-text {
     text-align: justify;
     padding: 0px 30px 30px 30px;
@@ -416,14 +421,14 @@ h4 {
 }
 
 .squad-header-text-left {
-    padding: 30px 30px 10px 30px;
+    padding: 20px 0px 10px 0px;
     font-size: 2rem;
     text-align: left;
 }
 
 .squad-text {
-    padding: 0px 30px 30px 30px;
-    text-align: justify;
+    padding: 0px 0px 20px 0px;
+    text-align: left;
 }
 
 
