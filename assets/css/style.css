@@ -378,7 +378,7 @@ h4 {
 
 .ltr-body-text {
     text-align: justify;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 /*------------membership-----------*/
