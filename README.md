@@ -224,7 +224,7 @@ To deploy the project I had to:
 * Select 'Settings' and find the ‘Pages’ section at the bottom of the vertical menu, on the left hand side.
 * From 'source', click where it says 'none' and update to 'branch: Master'. 
 * Click 'save' and refresh your page to confirm deployment. <br>
-![deployment confirmation](assets/images/readme_images/assets/kl_ms1_deploymentconfirmation.png)
+[![deployment confirmation](assets/images/readme_images/assets/kl_ms1_deploymentconfirmation.png)](https://kjluton.github.io/RiversideRowingClub)
 
 To run locally: 
 * Log into GitHub and click on the repository to download (https://github.com/KJLuton/RiversideRowingClub)
@@ -241,35 +241,20 @@ _______
 ## Media
 
 #### Photos (Generla Rowing): 
-Photo by <a href="https://unsplash.com/@mateovrb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mateo Vrbnjak</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@mattyfours?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Fournier</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@rhysatwork?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rhys Moult</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+Photo by <a href="https://unsplash.com/@anikinearthwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dimitry Anikin</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 Photo by <a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeffrey F Lin</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-Photo by <a href="https://unsplash.com/@joshcala?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Josh Calabrese</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@mattyfours?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Fournier</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@rhysatwork?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rhys Moult</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@mitchel3uo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mitchell Luo</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@pbernardon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pascal Bernardon</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@kjkranz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kyle Kranz</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@anikinearthwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dimitry Anikin</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@victorfreitas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Freitas</a> on <a href="https://unsplash.com/collections/8795314/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-
-Photo by <a href="https://unsplash.com/@victorfreitas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Freitas</a> on <a href="https://unsplash.com/s/photos/sports-group-of-men?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-  
-https://www.needpix.com/photo/download/1676878/rowing-boat-water-sports-free-pictures-free-photos-free-images-royalty-free-free-illustrations
   
 #### Photos (Coaches):
 
@@ -280,8 +265,6 @@ Photo by <a href="https://unsplash.com/@ryanhoffman007?utm_source=unsplash&utm_m
 Photo by <a href="https://unsplash.com/@kyddvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dillon Kydd</a> on <a href="https://unsplash.com/s/photos/smiling-headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeffrey F Lin</a> on <a href="https://unsplash.com/s/photos/rowing-coach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-https://www.iconfinder.com/icons/352521/location_on_icon
 
 #### Readme 
 
