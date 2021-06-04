@@ -281,6 +281,8 @@ Photo by <a href="https://unsplash.com/@kyddvisuals?utm_source=unsplash&utm_medi
   
 Photo by <a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeffrey F Lin</a> on <a href="https://unsplash.com/s/photos/rowing-coach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+https://www.iconfinder.com/icons/352521/location_on_icon
+
 #### Readme 
 
 https://github.com/AJGreaves/familyhub/blob/master/README.md
@@ -289,6 +291,8 @@ https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md
 #### Code:
 
 https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html
+
 
 
 
