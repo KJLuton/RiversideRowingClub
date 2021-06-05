@@ -374,7 +374,6 @@ I used the following README.md files for assistance in structure and guidance on
 
 * [README.md 1](https://github.com/AJGreaves/familyhub/blob/master/README.md)
 <br>
-
 * [README.md 2](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)
 
 #### Code:
