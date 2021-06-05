@@ -69,16 +69,16 @@ Katie is a female in her late 30s. She is an experienced rower and a long-time m
 ## Wireframes
 
 ### Homepage - Wireframe
-![Homepage-Wireframe](assets/images/readme_images/wireframes/Homepage-wireframe.png)
+![Homepage-Wireframe](assets/images/readme_images/wireframes/homepage-wireframe.png)
 
 ### Join Us Page - Wireframe
-![Join-Us-page-Wireframe](assets/images/readme_images/wireframes/Joinuspage-wireframe.png)
+![Join-Us-page-Wireframe](assets/images/readme_images/wireframes/joinuspage-wireframe.png)
 
 ### Members Page - Wireframe
-![Members-page-Wireframe](assets/images/readme_images/wireframes/Memberspage-wireframe.png)
+![Members-page-Wireframe](assets/images/readme_images/wireframes/memberspage-wireframe.png)
 
 ### Contact Us Page - Wireframe
-![Contact-Us-page-Wireframe](assets/images/readme_images/wireframes/Contactuspage-wireframe.png)
+![Contact-Us-page-Wireframe](assets/images/readme_images/wireframes/contactuspage-wireframe.png)
 
 ## Surface
 
