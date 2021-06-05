@@ -372,14 +372,21 @@ Photo by <a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&utm_medi
 
 I used the following README.md files for assistance in structure and guidance on how to write a README.md file: 
 
-[README.md 1](https://github.com/AJGreaves/familyhub/blob/master/README.md)
-[README.md 2](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md )
+* [README.md 1](https://github.com/AJGreaves/familyhub/blob/master/README.md)
+<br>
+
+* [README.md 2](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)
 
 #### Code:
 
 To write the code I used tutorials from the Code Institute lessons (HTML Essentials, CSS Essentials and User Centric Front End Development) paired with Bootstrap assitance and guidance on the Boostrap website. 
 
 I also used the following links to support my code writing: 
+* [Bootstrap Nav Bar](https://getbootstrap.com/docs/5.0/components/navbar/)
+* [Bootstrap Cards](https://getbootstrap.com/docs/5.0/components/card/)
+* [Bootstrap Alerts](https://getbootstrap.com/docs/5.0/components/alerts/)
+* [Bootstrap Forms](https://getbootstrap.com/docs/5.0/forms/overview/)
+* [Bootstrap Tables](https://getbootstrap.com/docs/5.0/content/tables/)
 * [Hero Image Assistance](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 * [Creating a favicon](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html)
 * [Creating a parallax](https://www.w3schools.com/howto/howto_css_parallax.asp)

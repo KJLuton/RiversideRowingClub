@@ -101,7 +101,7 @@ h4 {
     padding: 10px;
 }
 
-/* ------------------------ colours ------------------*/
+/* ------------------------ body colours ------------------*/
 
 .body-links {
     color: #dea700;
@@ -208,24 +208,6 @@ h4 {
 }
 
 /* ---- /.helcome/header container -------*/
-
-/* ---- motivation section -------*/
-
-.motivation-section {
-    height: 200px;
-    vertical-align: middle;
-    padding-top: 70px;
-    background: #8e9292;
-    position: relative;
-}
-
-.quotes-header h5 {
-    font-size: 50px;
-    color: white;
-    font-family: 'Signika Negative';
-}
-
-/* ------- /.motivation section ---------*/
 
 /*--------------Club Ethos------------*/
 
