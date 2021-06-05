@@ -115,7 +115,7 @@ h4 {
 }
 
 .bg-light {
-    background-color: rgb(25, 37, 78);
+    background-color: rgb(25, 37, 78) !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -169,7 +169,6 @@ h4 {
 .alert-warning {
     color: #ffc107;
     background-color: #566877;
-    border-color: #566877;
 }
 
 .alert {
@@ -275,7 +274,6 @@ h4 {
 .btn-lg {
     padding: 1rem 1rem;
     font-size: 1.25rem;
-    border-radius: .5rem;
 }
 
 .btn-check:active+.btn-secondary,
@@ -285,7 +283,7 @@ h4 {
 .show>.btn-secondary.dropdown-toggle {
     color: #fff;
     background-color: #ffc107;
-    border-color: #ffc107;
+    border-style: none;
 }
 
 .btn:hover {
@@ -515,14 +513,14 @@ Code assistance from here -------*/
 .btn-primary {
     color: #19254e;
     background-color: #ffc107;
-    border-color: #ffc107;
     font-weight: 600;
+    border-style: none;
 }
 
 .btn-primary:hover {
     color: #ffc107;
     background-color: #19254e;
-    border-color: #19254e;
+    border-style: none;
 }
 
 .form-button {
@@ -574,7 +572,7 @@ footer {
 
 /* ----------------------------------------Media Queries ---------*/
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1366px) {
     .parallax {
         background-attachment: scroll;
     }

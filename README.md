@@ -248,6 +248,24 @@ _______
 ### Functionality Testing
 ### Compatibility Testing
 ### Code Validation
+
+* #### [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2F) - Confirmed
+* #### W3C CSS Validation Service - Using direct input CSS validation. 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+        </a>
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
 ### User Stories Testing
 ### Issues Found during site development
 ### Performance Testing
