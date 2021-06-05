@@ -1,13 +1,13 @@
 # Riverside Rowing Club Website 
 ## User-Centric Frontend Development Milestone Project 1
 
-[insert image mock up here]
+![homepage mock up](assets/images/readme_images/assets/homepage_mockup.png)
 
 The [Riverside Rowing Club](https://kjluton.github.io/RiversideRowingClub/) website was built by Kirstyn Luton as part of the User Centric Frontend Development, Milestone 1 Project with Code Institute. The website presents Riverside Rowing Club as a successful rowing club in London. The rowing club has active members of all ages and abilities. The website allows the club to recruit new athletes are promote their 'Learn to Row' course which takes place every September. Users will find the content engaging, useful and will be able to navigate around the website in an efficient manner.
 
 Disclaimer: This website has been built for entertainment and education purposes. It does not represent an actual rowing club. The website is build with HTML, CSS and Bootstrap framework. Javascript has also been used to provide an interactive element to some of the features. The website is responsive for multiple screen types.
 
-## [View life website in github pages](https://kjluton.github.io/RiversideRowingClub/)
+## [View live website in GitHub pages](https://kjluton.github.io/RiversideRowingClub/)
 ---
 
 # Table of Contents
@@ -28,14 +28,11 @@ Disclaimer: This website has been built for entertainment and education purposes
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
     - [Functionality testing](#functionality-testing)
-    - [Compatibility testing](#compatibility-testing)
     - [Code Validation](#code-validation)
     - [User stories testing](#user-stories-testing)
     - [Issues found during site development](#issues-found-during-site-development)
-    - [Performance testing](#performance-testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
-7. [Screenshots](#screenshots)
 
 # UX
 
@@ -167,6 +164,8 @@ The website has the below features:
 
 ## Join Us page 
 
+![join us page mock up](assets/images/readme_images/assets/joinus_page_mockup.png)
+
 #### Page header and image
 * Similarly to the Homepage, the join us page has a yellow banner at the top with the page title. There is also a banner image below the yellow bar. This layout style is mirrored from the homepage to allow continuity across the site. 
 
@@ -179,7 +178,9 @@ The website has the below features:
 #### Club Facilities
 * The Club's facilities are displayed using Font Awesome icons. There is a header underneath the icon to explain the facility. 
 
-#### Contact Us page
+## Contact Us page
+
+![contact us page mockup](assets/images/readme_images/assets/contactus_page_mockup.png)
 * The 'Contact Us' page hosts a contact form whereby users (both new and existing) can contact the Club Committee by filling out the form, selecting their query type from a drop down list provided and writing a text message. The form clears once the user submits the message. The fields are compulsory and prompt the user, should they miss a field. 
 
 * To develop this section further, I would use an alert notification to inform the user that their message had been sent. 
@@ -216,15 +217,12 @@ _______
     JQuery was used with Bootstrap and aided the responsive and interactive elements of the site. 
 
 * #### [jsDelivr](https://www.jsdelivr.com/)
-    jsDelivr was used with Bootstrap and aided the responsive and interactive elements of the site.
-
-* #### [Hover.css](https://ianlunn.github.io/Hover/)
-    Hover.css allowed the buttons and links to change colour when the mouse hovers over them.    
+    jsDelivr was used with Bootstrap and aided the responsive and interactive elements of the site. 
 
 * #### [Font Awesome](https://fontawesome.com/)
     Font Awesome was used to supply icons for the social links and 'Club Facilities' section. 
 
-* #### [Google Fonts](https://fonts.google.com/): 
+* #### [Google Fonts](https://fonts.google.com/) 
     Google Fonts were used to install the 'Bebas Neue' and 'Signika Negative' fonts which were used across the site. 
 
 * #### [GitHub](https://github.com/)
@@ -245,11 +243,13 @@ _______
 
 # Testing
 
+* An initial review of the website structure led to a change in page structure. The initial plan was to have the following pages: 'Home', 'Join Us', 'Members', 'Contact Us'. However after the inital structure build, the Members page was removed and the content was placed on the homapge. 
+
+* The decision came during a discussion with my mentor. We decided that members pages are usually behind a payl wall or log in area. Therefore it would be better to structure the website with the members information on the first page. If developing the site, I would explore a sign in option for members to access member only materials. 
+
 ### Functionality Testing
 
 * All links and navigation on the website has been tested. Following feedback from this testing, a link to the 'Join Us' page was added on the homepage within the introduction 'about us' text. This helps drive new users through the site and enhances the 'join us' call to action. 
-
-* Following a discussion with my mentor, we restructured the website to remove the 'Members' page. The decision came from 'Members' pages usually being behind a pay wall or log in section. This would be something I would look to develop into the website. 
 
 ### User Stories Testing
 
@@ -339,6 +339,8 @@ The following images are from a rowing club called West End. These photos were t
 The following images are from a rowing club called Tideway Scullers. These photos were taken by [Ben Rodford Photography](https://www.benrodfordphotography.co.uk/index):
 * [Henley Podium](assets/images/own/henelypodium.jpeg)
 * [Henley Eight Rowing](assets/images/own/tssrowingeight_banner_homepage.jpg)
+
+The Kit images were provided by [Termaxx](https://termaxx.com/) and edited by myself to include the RRC logo. 
 
 #### Photos (General Rowing): 
 
