@@ -66,24 +66,29 @@ h4 {
     margin: 0;
 }
 
-    .container,
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        width: 100%;
-        padding-right: 0;
-        padding-left: 0;
-        margin-right: auto;
-        margin-left: auto;
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
 .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
 .list-inline {
@@ -406,7 +411,6 @@ h4 {
 
 /*------------- Code assistance from here:
 (https://www.w3schools.com/howto/howto_css_parallax.asp)
-
 Code assistance from here -------*/
 
 .parallax {
@@ -491,7 +495,7 @@ Code assistance from here -------*/
     padding: 50px;
     top: 20%;
     transform: translate(-0%, -120%);
-    background-color: rgba(247, 235, 199, 0.349);
+    background-color: rgba(250, 221, 133, 0.411);
     height: 100%;
 }
 

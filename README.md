@@ -246,11 +246,36 @@ _______
 # Testing
 
 ### Functionality Testing
-### Compatibility Testing
+
+* All links and navigation on the website has been tested. Following feedback from this testing, a link to the 'Join Us' page was added on the homepage within the introduction 'about us' text. This helps drive new users through the site and enhances the 'join us' call to action. 
+
+* Following a discussion with my mentor, we restructured the website to remove the 'Members' page. The decision came from 'Members' pages usually being behind a pay wall or log in section. This would be something I would look to develop into the website. 
+
+### User Stories Testing
+
+User 1:
+<i>Laura (40) is a mum of a Peter (15). Peter is a beginner rower and wants to join a rowing club in London. Laura is looking at the Rowing Club’s website to find out about the club, learn to row courses  and membership prices.</i>
+
+* Visiting the website as Laura, highlighted the lack of call to actions to get the user to the 'Join Us' page.  Three anonymous testers had Laura's persona to follow and they all fed back that they wanted to know more about the club from the first page, before they got to the 'Join Us' page. Following this feedback, I moved the blurb about the club, which was initially on the 'join us page' to the 'homepage'. I also added a call to action in the text leading the user to the 'join us' page if they are interested in joining us or starting rowing. 
+
+* Feedback also raised the lack of information about the 'Learn to Row' course. Following this, I added a section on the 'Learn to Row" course on the 'Join us' page. 
+
+User 2:
+<i>John is a male, experienced rower in his early 20s. He has just moved to London and is not yet a member of the Rowing Club. He is looking to find out about the clubs’ facilities, achievements, future goals and membership details. He is looking at multiple clubs in the area to find the best fit for him.</i>
+
+* Visiting the website as John highlighted the need to add more photos and atmostphere to the online presence of the club. The information was easy to find on the 'Join Us' page. The membership was presented clearly with a table. However the squad details were laid out with a lot of text. Following this testing and feedback, I updated the squads information section to have images and a bit more information about the achievements and goals of each squad. 
+
+User 3:
+<i>Katie is a female in her late 30s. She is an experienced rower and a long-time member of the club. She wants to find out about upcoming race dates and volunteering opportunities. She also needs to buy some new kit as her old kit has worn out.</i>
+
+* As a current member of the club, Katie has all the information she needs on the first page. I think Katie and other members would benefit from the Members Specific area beind developed. However the useful links include the event calendar and tide times so most of the information she would need is easily accessible on the first page. 
+
+* Katie can access the contact form to contact the committee about volunteering and buying new kit. A development could involve adding a volunteering page to outline different areas members can volunteer within the club. 
+
 ### Code Validation
 
-* #### [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2F) - Confirmed
-* #### W3C CSS Validation Service - Using direct input CSS validation. 
+* #### [W3C Markup Validation Service - Confirmed results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2F)
+* #### W3C CSS Validation Service - Confirmed results - Using direct input CSS validation. 
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -266,10 +291,12 @@ _______
     </a>
 </p>
 
-### User Stories Testing
-### Issues Found during site development
-### Performance Testing
-### Code Validation
+### Issues Found During Site Development
+* Nav Bar collapse not working - Once I corrected the Bootstrap code and JavaScript plug in, the burger menu worked. 
+* Images stretched when using Safari on an iphone. This was fed back to me following peer testing on Slack. I corrected the code by adding a height value to the images. 
+* Buttons had background colours and borders as the same colour. This was rejected in the validator. I updated the code to 'border-style:none;' to fit the errors. 
+* Hero image covering too much of the main screen. This wasn't good for usability as the user wasn't able to see a clear navigation path. I reduced the height of the image so it didn't take up as much of the screen. 
+* 
 
 [Back to table of contents](#table-of-contents)
 _______
@@ -297,9 +324,23 @@ _______
 
 ## Content
 
+The content on the page was written by myself, Kirstyn Luton. 
+The logo was created by myself using photoshop. The icon in the logo is from [Favicon](https://www.flaticon.com/free-icons/oar). 
+
 ## Media
 
-#### Photos (Generla Rowing): 
+The images in the folder 'own' are owned by myself and I have the rights to use them. The details of where they came from are below.
+
+The following images are from a rowing club called West End. These photos were taken by [Rowing Celebration](https://www.rowingcelebration.com/index): 
+* [Double Rowing Banner](assets/images/own/doublerowing_joinuspage.png)
+* [Group Photo](assets/images/own/novice_group_image_small.jpg)
+* [Hug](assets/images/own/rowingmhug.jpeg)
+
+The following images are from a rowing club called Tideway Scullers. These photos were taken by [Ben Rodford Photography](https://www.benrodfordphotography.co.uk/index):
+* [Henley Podium](assets/images/own/henelypodium.jpeg)
+* [Henley Eight Rowing](assets/images/own/tssrowingeight_banner_homepage.jpg)
+
+#### Photos (General Rowing): 
 
 Photo by <a href="https://unsplash.com/@mattyfours?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Fournier</a> on <a href="https://unsplash.com/s/photos/rowing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
@@ -325,21 +366,32 @@ Photo by <a href="https://unsplash.com/@kyddvisuals?utm_source=unsplash&utm_medi
   
 Photo by <a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeffrey F Lin</a> on <a href="https://unsplash.com/s/photos/rowing-coach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-#### Readme 
+#### README.md File Assistance
 
-https://github.com/AJGreaves/familyhub/blob/master/README.md
-https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md 
+I used the following README.md files for assistance in structure and guidance on how to write a README.md file: 
+
+[README.md 1](https://github.com/AJGreaves/familyhub/blob/master/README.md)
+[README.md 2](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md )
 
 #### Code:
 
-https://www.w3schools.com/howto/howto_css_hero_image.asp
-https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html
+To write the code I used tutorials from the Code Institute lessons (HTML Essentials, CSS Essentials and User Centric Front End Development) paired with Bootstrap assitance and guidance on the Boostrap website. 
 
-
-
+I also used the following links to support my code writing: 
+* [Hero Image Assistance](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+* [Creating a favicon](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html)
+* [Creating a parallax](https://www.w3schools.com/howto/howto_css_parallax.asp)
 
 # Acknowledgements
 
+Thank you to my mentor Adegbenga Adeye for his support and guidance during the project development. 
+<br>
+Thank you to the following Code Institute students who peer reviewed my work and found some bugs and made some creative suggestions. 
+* Claire Lemonnier
+* Richard L
+* Oliver Cadman
+<br>
 
+Thank you to my family and friends who tested the site and provided valuable feedback. 
 
 [Back to Table of contents](#table-of-contents)
