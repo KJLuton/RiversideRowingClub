@@ -274,7 +274,12 @@ User 3:
 
 ### Code Validation
 
-* #### [W3C Markup Validation Service - Confirmed results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2F)
+* #### W3C Markup Validation Service - Confirmed results 
+
+[Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2F)
+[Join Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2Fjoinus.html)
+[Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkjluton.github.io%2FRiversideRowingClub%2Fcontactus.html)
+
 * #### W3C CSS Validation Service - Confirmed results - Using direct input CSS validation. 
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -296,7 +301,8 @@ User 3:
 * Images stretched when using Safari on an iphone. This was fed back to me following peer testing on Slack. I corrected the code by adding a height value to the images. 
 * Buttons had background colours and borders as the same colour. This was rejected in the validator. I updated the code to 'border-style:none;' to fit the errors. 
 * Hero image covering too much of the main screen. This wasn't good for usability as the user wasn't able to see a clear navigation path. I reduced the height of the image so it didn't take up as much of the screen. 
-* 
+* Code validator highlighted some unclosed tags on the "Join Us" and "Contact Us" pages.
+* To improve the speed of the site, the images were resized through [Tinypng.com](https://www.tinypng.com).
 
 [Back to table of contents](#table-of-contents)
 _______
